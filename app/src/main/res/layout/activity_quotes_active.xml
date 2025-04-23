@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quotes_active">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="Motivational Background" />
+
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motivational Quote"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="24dp"
+            android:fontFamily="cursive"
+
+            android:layout_centerInParent="true"
+        />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/rightarrow"
+            android:layout_marginStart="370sp"
+            android:layout_marginTop="350sp"
+            android:id="@+id/arrow_right"
+
+            />
+
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/left"
+            android:id="@+id/arrow_left"
+
+            android:layout_marginTop="350sp"
+
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

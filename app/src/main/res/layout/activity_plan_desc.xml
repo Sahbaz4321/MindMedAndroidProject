@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".planActivity_desc">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Your Plan"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+    <EditText
+        android:layout_width="380sp"
+        android:layout_gravity="center"
+        android:layout_height="200sp"
+        android:textSize="30sp"
+        android:id="@+id/plan_desc"
+        android:background="@drawable/editbackground"
+        android:inputType="textMultiLine"
+        android:minLines="4"
+        android:layout_marginTop="16sp"
+        android:hint="Plan Description"
+        android:gravity="top|start"
+        android:padding="5sp"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="10sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        >
+
+
+        <EditText
+            android:id="@+id/startDate"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:hint="Start Date"
+            android:layout_row="0"
+
+            android:layout_margin="10sp"
+            android:layout_column="0"
+            android:background="@drawable/editbackground"
+            android:gravity="center"
+            android:inputType="date" />
+
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:hint="End Date"
+            android:layout_row="0"
+            android:layout_margin="10sp"
+            android:id="@+id/endDate"
+
+            android:layout_column="1"
+            android:background="@drawable/editbackground"
+            android:gravity="center"
+            android:inputType="date" />
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:hint="Start Time"
+            android:layout_row="01"
+            android:layout_margin="10sp"
+            android:id="@+id/startTime"
+            android:layout_column="0"
+            android:background="@drawable/editbackground"
+            android:gravity="center"
+            android:inputType="date" />
+
+
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:hint="End Time"
+            android:layout_row="1"
+            android:layout_margin="10sp"
+            android:id="@+id/endTime"
+
+            android:layout_column="1"
+            android:background="@drawable/editbackground"
+            android:gravity="center"
+            android:inputType="date" />
+
+
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:backgroundTint="@color/black"
+        android:text="Save"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_margin="50sp"
+        android:id="@+id/savePlan"
+
+        />
+
+
+
+
+</LinearLayout>

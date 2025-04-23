@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1DB954</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorMagenta">#FF00FF</color>
+    <color name="colorBlue">#00FFFF</color>
+    <color name="canaryBackgroundColor">#E2F4F6</color>
+    <color name="purple_200">#FF5722</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="orange">#F1C43D</color>
+    <color name="background">#EDEDED</color>
+    <color name="dark_orange">#FF9800</color>
+    <color name="dark_grey">#656262</color>
+    <color name="grey">#DBDADA</color>
+    <color name="transparent">#00FF9800</color>
+    <color name="GREEN">#109F00</color>
+    <color name="pbutton">#885406</color>
+    <color name="blue">#0832FF</color>
+    <color name="purple">#7400A6</color>
+
+
+    <color name="firozi">#2ED3C6</color>
+    <color name="pink">#B41CDBFF</color>
+    <color name="red">#B4DB0D33</color>
+    <color name="yellow">#B4EBAF3F</color>
+    <color name="darkBlue">#32357a</color>
+    <color name="lightBlue">#f2f1f6</color>
+    <color name="cream">#EFDEC9</color>
+    <color name="lightCream">#FCF0E2</color>
+    <color name="darkGrey">#8D8D8D</color>
+    <color name="darkBrown">#220C01</color>
+</resources>
