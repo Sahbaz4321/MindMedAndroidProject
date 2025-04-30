@@ -76,14 +76,14 @@ class SearchBar : AppCompatActivity() {
     }
     private fun addDataToList(){
 
-        mList.add(LanguageData("Java"))
-        mList.add(LanguageData("Kotlin"))
-        mList.add(LanguageData("C++"))
-        mList.add(LanguageData("Python"))
-        mList.add(LanguageData("HTML"))
-        mList.add(LanguageData("Swift"))
-        mList.add(LanguageData("C#"))
-        mList.add(LanguageData("JavaScript"))
+        mList.add(LanguageData("Relief"))
+        mList.add(LanguageData("Ambulance"))
+        mList.add(LanguageData("Plan"))
+        mList.add(LanguageData("Anxiety"))
+        mList.add(LanguageData("Stree"))
+        mList.add(LanguageData("Mood"))
+        mList.add(LanguageData("Sadness"))
+        mList.add(LanguageData("Happyness"))
     }
 
 }

@@ -24,7 +24,7 @@ class Emergency : AppCompatActivity() {
         sos.setOnClickListener{
 
             val intent=Intent(Intent.ACTION_DIAL)
-            intent.data = android.net.Uri.parse("tel:102")
+            intent.data = android.net.Uri.parse("tel:108")
             startActivity(intent)
 
         }
